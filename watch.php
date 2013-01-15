@@ -7,6 +7,7 @@ $watch = array();
 
 $watch[] = array('regex'=>"@\\[INFO\\] Starting minecraft server version@",'icon'=>'./Grass.png');
 $watch[] = array('regex'=>"@\\[INFO\\] Done \\((.){1,8}s\\)! For help, type \"help\" or \"\\?\"@",'icon'=>'./Grass.png');
+$watch[] = array('regex'=>"@\\[INFO\\] Stopping server@",'icon'=>'./TNT.png');
 $watch[] = array('regex'=>"@\\[INFO\\] (.){1,}\\[/(.){1,}\] logged in with entity id@",'icon'=>'./Cake.png');
 $watch[] = array('regex'=>"@\\[INFO\\] (.){1,} lost connection:@",'icon'=>'./Creeper_Head.png');
 $watch[] = array('regex'=>"@\\[INFO\\] <(.){1,}>@",'icon'=>'./Head.png');
