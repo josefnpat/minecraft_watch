@@ -29,9 +29,9 @@ while(true){
         if(preg_match($watch_item['regex'],$new[$i])){
           echo $new[$i]."\n";
           if(isset($watch_item['icon'])){
-            $icon = " --icon=".getcwd().'/'.$watch_item['icon'];
+            $icon = ' --icon="'.getcwd().'/'.$watch_item['icon'].'"';
           } else {
-            $icon = "";
+            $icon = '';
           }
           passthru('notify-send '.$icon.' Minecraft "'.$new[$i].'"');
         }
